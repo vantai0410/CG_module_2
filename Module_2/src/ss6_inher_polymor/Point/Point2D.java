@@ -1,4 +1,4 @@
-package ss6_inher_polymor.Point;
+package ss6_inher_polymor.point;
 
 public class Point2D {
     private float x ;

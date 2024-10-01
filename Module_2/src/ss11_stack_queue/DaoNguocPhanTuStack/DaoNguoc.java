@@ -1,4 +1,4 @@
-package ss11_stack_queue.DaoNguocPhanTuStack;
+package ss11_stack_queue.dao_nguoc_phan_tu_stack;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package ss4_oop.Fan;
+package ss4_oop.fan;
 
 public class Fan {
     public static int slow = 1;

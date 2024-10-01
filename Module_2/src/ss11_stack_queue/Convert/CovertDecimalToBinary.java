@@ -1,4 +1,4 @@
-package ss11_stack_queue.Convert;
+package ss11_stack_queue.convert;
 
 import java.util.Scanner;
 import java.util.Stack;

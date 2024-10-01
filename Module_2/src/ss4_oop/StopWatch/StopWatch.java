@@ -1,4 +1,4 @@
-package ss4_oop.StopWatch;
+package ss4_oop.stop_watch;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

@@ -1,4 +1,4 @@
-package ss4_oop.HinhChuNhat;
+package ss4_oop.hinh_chu_nhat;
 
 public class Rectangle {
     public double width;

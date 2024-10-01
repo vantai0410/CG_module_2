@@ -1,4 +1,4 @@
-package ss6_inher_polymor.MovablePoint;
+package ss6_inher_polymor.movable_point;
 
 public class Point {
     private float x;

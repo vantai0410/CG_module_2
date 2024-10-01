@@ -1,4 +1,4 @@
-package ss11_stack_queue.CheckPalindrome;
+package ss11_stack_queue.check_palindrome;
 
 import java.util.Scanner;
 import java.util.Stack;

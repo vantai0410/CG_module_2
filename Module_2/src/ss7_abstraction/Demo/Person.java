@@ -1,4 +1,4 @@
-package ss7_abstraction.Demo;
+package ss7_abstraction.demo;
 // trong Java:
 // lớp chứa abstract method thì phải có abstract class, ngược lại thì ko
 // giống class thường về mọi mặt nhưng ko thể khởi tạo đối tượng ( vẫn có constructor ). có constructor để tái sự dụng cho lớp con

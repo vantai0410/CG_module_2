@@ -1,4 +1,4 @@
-package ss7_abstraction.Animal;
+package ss7_abstraction.animal;
 
 public abstract class Fruit implements Edible {
 }

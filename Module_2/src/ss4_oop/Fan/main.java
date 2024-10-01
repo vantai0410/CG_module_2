@@ -1,4 +1,4 @@
-package ss4_oop.Fan;
+package ss4_oop.fan;
 
 public class main {
     public static void main(String[] args) {

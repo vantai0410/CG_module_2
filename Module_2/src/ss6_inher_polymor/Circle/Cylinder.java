@@ -1,4 +1,4 @@
-package ss6_inher_polymor.Circle;
+package ss6_inher_polymor.circle;
 
 public class Cylinder extends Circle{
     private double height;

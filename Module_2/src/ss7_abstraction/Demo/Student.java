@@ -1,4 +1,4 @@
-package ss7_abstraction.Demo;
+package ss7_abstraction.demo;
 
 public class Student extends Person {
 
