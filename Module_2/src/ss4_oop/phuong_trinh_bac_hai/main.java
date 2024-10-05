@@ -1,7 +1,5 @@
 package ss4_oop.phuong_trinh_bac_hai;
 
-import java.util.Scanner;
-
 public class main {
     public static void main(String[] args) {
         QuadraticEquation quadraticEquation = new QuadraticEquation(1,-3,2);
