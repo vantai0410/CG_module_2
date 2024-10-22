@@ -1,13 +1,11 @@
 package model;
 
 public class Clothing extends Product{
-    private String idClothing;
     private String size;
     private String color;
 
-    public Clothing( String idClothing,String name, double price, int quantity, String size, String color) {
-        super(name, price, quantity);
-        this.idClothing = idClothing;
+    public Clothing(String id, String name, double price, int quantity, String size, String color) {
+        super(id, name, price, quantity);
         this.size = size;
         this.color = color;
     }
@@ -22,13 +20,6 @@ public class Clothing extends Product{
         return "Clothing";
     }
 
-    public String getIdClothing() {
-        return idClothing;
-    }
-
-    public void setIdClothing(String idClothing) {
-        this.idClothing = idClothing;
-    }
 
     public String getSize() {
         return size;
@@ -46,8 +37,10 @@ public class Clothing extends Product{
         this.color = color;
     }
 
+
+
     @Override
     public String toString() {
-        return super.toString() + "," + idClothing + "," + size + "," + color;
+        return super.toString() + ", Size: " + size + ", Color: " + color;
     }
 }

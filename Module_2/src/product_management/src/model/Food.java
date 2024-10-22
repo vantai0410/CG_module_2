@@ -3,12 +3,10 @@ package model;
 import java.time.LocalDate;
 
 public class Food extends Product {
-    private String idFood;
     private LocalDate expirationDate;
 
-    public Food(String idFood,String name, double price, int quantity, LocalDate expirationDate) {
-        super(name, price, quantity);
-        this.idFood = idFood;
+    public Food(String id, String name, double price, int quantity, LocalDate expirationDate) {
+        super(id, name, price, quantity);
         this.expirationDate = expirationDate;
     }
 
@@ -25,13 +23,6 @@ public class Food extends Product {
         return "Food";
     }
 
-    public String getIdFood() {
-        return idFood;
-    }
-
-    public void setIdFood(String idFood) {
-        this.idFood = idFood;
-    }
 
     public LocalDate getExpirationDate() {
         return expirationDate;
@@ -41,8 +32,10 @@ public class Food extends Product {
         this.expirationDate = expirationDate;
     }
 
+
+
     @Override
     public String toString() {
-        return super.toString() + "," + idFood + "," + expirationDate;
+        return super.toString() + ", Expiration Date: " + expirationDate;
     }
 }

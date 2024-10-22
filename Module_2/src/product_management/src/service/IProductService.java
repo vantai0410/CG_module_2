@@ -9,5 +9,6 @@ public interface IProductService {
     void updateProduct(String id, Product updatedProduct);
     void deleteProduct(String id);
     List<Product> getAllProducts();
+    Product searchProductById(String id);
 
 }

@@ -1,13 +1,11 @@
 package model;
 
 public class Book extends Product{
-    private String idBook;
     private String author;
     private String publisher;
 
-    public Book(String idBook, String name, double price, int quantity, String author, String publisher) {
-        super(name, price, quantity);
-        this.idBook = idBook;
+    public Book(String id, String name, double price, int quantity, String author, String publisher) {
+        super(id, name, price, quantity);
         this.author = author;
         this.publisher = publisher;
     }
@@ -22,13 +20,6 @@ public class Book extends Product{
         return "Book";
     }
 
-    public String getIdBook() {
-        return idBook;
-    }
-
-    public void setIdBook(String idBook) {
-        this.idBook = idBook;
-    }
 
     public String getAuthor() {
         return author;
@@ -45,9 +36,18 @@ public class Book extends Product{
     public void setPublisher(String publisher) {
         this.publisher = publisher;
     }
+    public boolean validate() {
+        String idPattern = "B\\d{3}";
+        String textPattern = ".+";
+
+        return getId().matches(idPattern) &&
+                author.matches(textPattern) &&
+                publisher.matches(textPattern);
+    }
 
     @Override
     public String toString() {
-        return super.toString() + "," + idBook + "," + author + "," + publisher;
+        return super.toString() + ", Author: " + author + ", Publisher: " + publisher;
     }
 }
+

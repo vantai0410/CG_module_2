@@ -1,1 +1,5 @@
-Books,B001,aaa,12.0,12,aa,cc
+Book,B001,Java Programming,50.0,1,John Doe,O'Reilly
+Clothing,C001,T-Shirt,50.0,1,M,Red
+Book,B003,CodeORD,50.0,1,Robert C. Martin,Prentice Hall
+Clothing,C002,Jeans,50.0,1,L,Blue
+Food,F002,Rice,50.0,1,2024-11-30
